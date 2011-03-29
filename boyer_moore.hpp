@@ -13,6 +13,7 @@
 #define BOOST_BOYER_MOORE_H
 
 #include <boost/config.hpp>
+#include <cstring>
 
 #if !defined(BOOST_NO_STD_ITERATOR_TRAITS)
 #   include <iterator>      // iterator_traits
