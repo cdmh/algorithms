@@ -28,6 +28,7 @@
 #include "boost/array.hpp"
 #include "crc_string.hpp"
 
+#include <cstring>
 
 inline bool boost_error(char const * expr, char const * func, char const * file, long line)
 {
