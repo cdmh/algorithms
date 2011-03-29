@@ -68,9 +68,9 @@ namespace boost {
         // than the first, so we can swap the input iterators
         if (size_first > size_second)
         {
-            detail::swap_iterators(begin_first, begin_second);
-            detail::swap_iterators(end_first, end_second);
-            detail::swap_iterators(size_first, size_second);
+            std::swap(begin_first, begin_second);
+            std::swap(end_first, end_second);
+            std::swap(size_first, size_second);
         }
 
         // compare the heads of the sequences to skip equal

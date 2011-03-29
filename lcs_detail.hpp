@@ -162,17 +162,6 @@ size_type linear_space_lcs(ItIn1      begin_first,
     return lcs;
 }
 
-template<typename T>
-void swap(T &t1, T &t2)
-{
-    std::swap_iterators(t1, t2);
-}
-
-template<typename T1, typename T2>
-void swap_iterators(T1 const &, T2 const &)
-{
-}
-
 }       // namespace detail
 
 }           // namespace boost
