@@ -14,6 +14,8 @@
 #define LCS_H_
 
 #include "lcs_detail.hpp"
+#include <boost/type_traits/is_integral.hpp>
+#include <boost/static_assert.hpp>
 
 namespace boost {
     // Note: size_type must be a signed integral type

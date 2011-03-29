@@ -18,13 +18,14 @@
 #include <deque>
 #include <typeinfo>              // typeid
 
-#include "boost/config.hpp"
+#include <boost/config.hpp>
+#include "../longest_common_subsequence.hpp"
+
 #define BOOST_DEBUG 1
 #include "boost/assert.hpp"      // BOOST_ASSERT
 #include "boost/config.hpp"
 #include "boost/crc.hpp"
 #include "boost/array.hpp"
-#include "../longest_common_subsequence.hpp"
 #include "crc_string.hpp"
 
 
@@ -227,7 +228,7 @@ void test_container_type(int size)
 
 int main(int, char **)
 {
-    srand(time(NULL));
+    srand((unsigned)time(0));
     std::cout << "LCS Test Program" << std::endl << std::endl;
 
     try

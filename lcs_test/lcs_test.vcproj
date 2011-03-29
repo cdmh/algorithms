@@ -203,11 +203,11 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\boost\sequence_algo\detail\lcs_detail.hpp"
+				RelativePath="..\lcs_detail.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\boost\sequence_algo\longest_common_subsequence.hpp"
+				RelativePath="..\longest_common_subsequence.hpp"
 				>
 			</File>
 		</Filter>
